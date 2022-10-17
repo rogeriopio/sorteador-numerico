@@ -1,22 +1,19 @@
 <p align="center">
   <a href="" rel="noopener">
-  <img width="400px" height="259px"  src="img/sorteador.png" alt="Projeto logo"></a>
+  <img width="400px" height="259px"  src="./src/img/sorteador.png" alt="Projeto logo"></a>
 </p>
 
 <h3 align="center">Sorteador de Números em uma Lista</h3>
 
-<div align="center">
+<div  align="center" >
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/rogeriopio/sorteador-numerico)](https://github.com/rogeriopio/sorteador-numerico/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rogeriopio/sorteador-numerico)](https://github.com/rogeriopio/sorteador-numerico/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/rogeriopio/sorteador-numerico)](https://github.com/rogeriopio/sorteador-numerico/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rogeriopio/sorteador-numerico)](https://github.com/rogeriopio/sorteador-numerico/pulls) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> Site que através de uma lista passada pelos  usuários, geram 10 jogos ,contendo 6 números em cada jogo
+<p align="center"> Site que através de uma lista passada pelos  usuários, geram 10 jogos ,contendo 6 números em cada jogo.
     <br> 
 </p>
 
@@ -32,7 +29,9 @@
 
 ### O que é este projeto
 
-<p>Simples aplicação que que através de uma lista passada pelos   usuários, geram 10 jogos ,contendo 6 números em cada jogo , os numeros que podem serem selecionados  vai de 1 até 60 ,feita em HTML,TailwindCss e JS, criada para treinar logica e conceitos</p>
+<p>Simples aplicação que que através de uma lista passada pelos   usuários, geram 10 jogos ,contendo 6 números em cada jogo e nenhum deles  sera repetidos , os números que podem serem selecionados  vai de 1 até 60 ,feita em HTML,TailwindCss e JS, criada para treinar logica e conceitos</p>
+
+Site online:https://app.netlify.com/sites/sorteador-numero/overview
 
 ## 🏁 Iniciando o projeto
 
@@ -52,17 +51,20 @@ Antes de começar você vai precisar ter instalado em sua maquina as seguintes f
 $ git clone https://github.com/rogeriopio/sorteador-numerico.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd XXXX
+$ cd sorteador-numerico
 
 # Instale as dependências
 $ npm install
+
+# Rode o comando para deixar o Tailwind rodadndo
+$ npm run watch
 ```
 
 ## 🔧 Como este projeto funciona?
 
 <p>Apenas escolha  os números e  clique em Sortear</p>
 
-<img  src="img/sorteador.gif" alt="Sorteador de números"></a>
+<img width="400px" height="357px"  src="/src/img/sorteador.gif" alt="Sorteador de números"></a>
 
 ## Tecnologia Utilizada
 
