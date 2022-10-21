@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
-  <img width="400px" height="259px"  src="./src/img/sorteador.png" alt="Projeto logo"></a>
+  <img width="400px" height="259px"  src="./src/img/sorteador.PNG" alt="Projeto logo"></a>
 </p>
 
-<h3 align="center">Sorteador de Números em uma Lista</h3>
+<h3 align="center">Sorteador de Números em uma Lista Feito com Tailwindcss</h3>
 
 <div  align="center" >
 
