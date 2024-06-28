@@ -12,7 +12,7 @@ function handleSubmit(e) {
 		numSel.push(v.value);
 	});
 	let impressao = 0;
-	while (impressao < 10) {
+	while (impressao < 100) {
 		for (let i = 0; i < 6; i++) {
 			let temp = Math.floor(Math.random() * numSel.length);
 			if (numRnd.indexOf(numSel[temp]) == -1) {
